@@ -22,14 +22,24 @@ h1 {
   margin: 0;
 }
 
-.doc {
+
+.ddd
+{
   margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,fantasy,sans-serif;
   font-size: 1.1em;
   font-weight: 300;
 
+}
+
+
+
+
+.doc {
+ 
+
   a {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 3px;
     padding: 0.25em 0.15em;
     color: black;
@@ -45,7 +55,7 @@ h1 {
 
 .welcome {
   -webkit-animation-name: welcome;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 4s;
 }
 
 @-webkit-keyframes welcome {
