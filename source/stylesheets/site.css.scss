@@ -2,21 +2,22 @@
 @import "normalize";
 
 body {
-  background: #ECC545;
+  background: red;
   text-align: center;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 3em;
 }
 
 .logo img {
-  height: 13.75em;
+  height: 10.75em;
+  
   margin-top: 0em;
 }
 
 h1 {
-  color: rgba(0,0,0,0.5);
+  color: black;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2.8em;
+  font-size: 1.8em;
   font-weight: 400;
   margin: 0;
 }
@@ -28,15 +29,15 @@ h1 {
   font-weight: 300;
 
   a {
-    border: 1px solid blue;
+    border: 1px solid black;
     border-radius: 3px;
-    padding: 0.75em 0.7em;
-    color: blue;
+    padding: 0.25em 0.15em;
+    color: black;
     text-decoration: none;
     transition: color 0.1s linear;
     &:hover {
       background: rgba(0,0,0,0.2);
-      color: green;
+      color: darkblue;
       transition: all 0.15s linear;
     }
   }
@@ -44,7 +45,7 @@ h1 {
 
 .welcome {
   -webkit-animation-name: welcome;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 3s;
 }
 
 @-webkit-keyframes welcome {
